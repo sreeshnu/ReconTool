@@ -1,0 +1,23 @@
+# ReconTool Requirements
+# All modules use Python standard library only — no pip install needed!
+# 
+# System tools needed (pre-installed on Kali Linux):
+#   - dig       (DNS queries)
+#   - whois     (WHOIS lookups)  
+#   - ping      (Host detection)
+#
+# Optional (for PDF generation):
+#   sudo apt install wkhtmltopdf
+#
+# Python standard library used:
+#   - socket
+#   - ssl
+#   - urllib
+#   - subprocess
+#   - concurrent.futures
+#   - argparse
+#   - json
+#   - re
+#   - datetime
+#   - os
+#   - sys
